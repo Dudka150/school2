@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+}
+
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Стили для ФИО */
+.full-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Стили для карточек компетенций */
+.skill-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+}
