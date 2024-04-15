@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import ProductCard from './ProductCard';
-import SkillCard from './SkillCard';
+import ProductCard from './Components/ProductCard';
+import SkillCard from './Components/SkillCard';
 
 function App() {
   return (
